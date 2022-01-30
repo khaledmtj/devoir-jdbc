@@ -3,6 +3,7 @@
 Prérequis :
 
 La base de donnée utilisée est MySQL qui est démarrée sur localhost. En installant MySQL, on peut ajouter Connector/J à l’installation qui le jdbc propre de MySQL (J’ai installé les dernières version 8.0.28).
+Dans l'IDE j'ai ajouter aux "external libraries" le .jar file du Connector/J installé.
 
 Après j’ai créé une database devoirjdbc et une table Etudiants :
 
@@ -16,6 +17,7 @@ create table Etudiants(
 );
 
 =============================================================
+
 Code :
 
 -Class.forName("com.mysql.cj.jdbc.Driver"); 
